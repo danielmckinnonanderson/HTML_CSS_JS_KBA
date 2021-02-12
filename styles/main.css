@@ -34,10 +34,10 @@ h1, h2, h3, h4, h5, p {
 #container_intro {
 	min-height: 280px;
 }
-
 #container_stats {
 	overflow: auto;
 	padding: 2.5% 5% 2.5% 5%;
+	text-align: center; /*inline block treats each element as text*/
 }
 #title {
 	float: left;
