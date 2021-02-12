@@ -2,10 +2,11 @@
 <html>
 <head>
 	<title>NBA MVP's</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-	<div> <!-- main container -->
-		<div> <!--header bar (on all pages)-->
+	<div id='container_main'> <!-- main container -->
+		<div id='container_header'> <!--header bar (on all pages)-->
 			<div> <!-- header title -->
 				<h1>
 					NBA MVP's
@@ -15,12 +16,12 @@
 				<!--image of naismith mvp trophy -->
 			</div>
 			
-			<div>
-				<select>
-					<option>Select a Year</option>
-					<option>2020</option>
-					<option>2018</option>
-				</select>
+			<div class = 'dropdown'>
+				<button>Select a Year</button> <!--dropdown link list in CSS -->
+				<div>
+					<a href="./2020.html">2020</a>
+					<a href="./2018.html">2018</a>
+				</div>
 			</div>
 		</div>
 
