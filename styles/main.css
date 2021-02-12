@@ -30,7 +30,7 @@ body {
 	border: solid; border-color: #c24a00; 
 }
 #container_stats {
-
+	overflow: auto;
 }
 #container_stats div {
 	border: solid 1px; border-color: #c24a00;
