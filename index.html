@@ -168,19 +168,24 @@
 						</tbody>
 					</table>
 				</div>
-
-				<div id='container_search'>	<!--body right container-->
-					<h3>Search:</h3>
-					<input type="text" name="search" placeholder="Search for a player" id="search_input">
-					<input type='submit' placeholder="Search"></input>
-					<script type="text/javascript" src='./scripts/scripts.js'>
-						var input = document.getElementById('search_input')
-						console.log(nameSearch(input))
-					</script>
+				<div id='container_sidebar'>
+					<div id='container_search'>	<!--body right container-->
+						<h3>Search:</h3>
+							<input type="text" name="search" placeholder="Search for a player" id="search_input">
+							<button onclick="searchName()">Search</button>
+					</div>
+					<div id='container_signup'>
+						<h3>Register for Email List</h3>
+						<form>
+							<input type="email" name="email" placeholder="myemail@domain.com">
+							<input type="submit" name="submit">
+						</form>
+						
+					</div>
 				</div>
 			</div>
 		</div>
-
-	</section>
+	</div>
+	<script type="text/javascript" src='./scripts/scripts.js'></script>
 </body>
 </html>
