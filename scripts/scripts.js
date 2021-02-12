@@ -25,7 +25,7 @@ var mvp_list = [
 function searchName(search) {
 	results = ''
 	for (season of mvp_list) {
-		if (season.includes(search)) {
+		if (season[0].includes(search)) {
 			results += season
 		}
 	}
