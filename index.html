@@ -171,10 +171,11 @@
 
 				<div id='container_search'>	<!--body right container-->
 					<h3>Search:</h3>
-					<input type="text" name="search" placeholder="Search for a player">
-
-					<script type="text/javascript" href='./scripts/scripts.js'>
-						nameSearch()
+					<input type="text" name="search" placeholder="Search for a player" id="search_input">
+					<input type='submit' placeholder="Search"></input>
+					<script type="text/javascript" src='./scripts/scripts.js'>
+						var input = document.getElementById('search_input')
+						console.log(nameSearch(input))
 					</script>
 				</div>
 			</div>
