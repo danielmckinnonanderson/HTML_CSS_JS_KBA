@@ -34,10 +34,20 @@ h1, h2, h3, h4, h5, p {
 #container_intro {
 	min-height: 280px;
 }
+#container_intro h3 {
+	text-align: center;
+}
 #container_stats {
 	overflow: auto;
 	padding: 2.5% 5% 2.5% 5%;
 	text-align: center; /*inline block treats each element as text*/
+}
+#container_search {
+	float: right;
+						/*to do: add*/
+}
+#container_table {
+	float: left;
 }
 #title {
 	float: left;
@@ -78,4 +88,7 @@ h1, h2, h3, h4, h5, p {
 }
 .stat_box h4 {
 	color: #c24a00;
+}
+#table {
+	color: white;
 }
