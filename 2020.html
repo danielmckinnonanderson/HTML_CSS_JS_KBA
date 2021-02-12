@@ -2,13 +2,30 @@
 <html>
 <head>
 	<title>NBA MVP's-- 2020</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<style type="text/css">
+		.menu_item {
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		#menu:hover #menu_options {
+			display: block;
+		}
+		#menu:hover .menu_item {
+			background-color: #c24a00;
+		}
+		.menu_options a:hover {
+			background-color: #db6a00;
+		}
+	</style>
 </head>
 <body>
-	<div> <!-- main container -->
-
-		<div> <!--header bar (on all pages)-->
+	<div id='container_main'> <!-- main container -->
+		<div id='container_header'> <!--header bar (on all pages)-->
 			<div> <!-- header title -->
-				<h1>
+				<h1 style='font-family: "Secular One"' id='title'>
 					NBA MVP's
 				</h1>
 			</div>
@@ -16,20 +33,20 @@
 				<!--image of naismith mvp trophy -->
 			</div>
 			
-			<div>
-				<select>
-					<option>Select a Year</option>
-					<option>2020</option>
-					<option>2018</option>
-				</select>
+			<div id = 'menu'>
+				<button id = 'menu_button'>Year:</button> <!--dropdown link list in CSS -->
+				<div id='menu_options'>
+					<a class='menu_item' href="./2020.html">2020</a>
+					<a class='menu_item' href="./2018.html">2018</a>
+				</div>
 			</div>
 		</div>
 
 
-		<div>	<!--body container (on all pages)-->
+		<div id='container_body'>	<!--body container (on all pages)-->
 			<div> <!-- body heading-->
 				<div>
-					<h3>
+					<h3 style="font-family: 'Secular One'">
 						2020: Giannis Antetokounmpo
 					</h3>
 					<h5>
@@ -45,44 +62,44 @@
 				</div>
 			</div>
 			
-			<div>	<!-- body stats container -->
+			<div id='container_stats'>	<!-- body stats container -->
 				<div> <!--'boxes' for counting stats 1-->
 					<h4>Points</h4>
-					<h3>Number</h3>
-					<h5>PPG</h5>
+					<h3>1857</h3>
+					<h5>29.5 PPG</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 2-->
 					<h4>Rebounds</h4>
-					<h3>Number</h3>
-					<h5>RPG</h5>
+					<h3>856</h3>
+					<h5>13.6 RPG</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 3-->
 					<h4>Assists</h4>
-					<h3>Number</h3>
-					<h5>APG</h5>
+					<h3>354</h3>
+					<h5>5.6 APG</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 4-->
-					<h4>3 Pointers</h4>
-					<h3>Nummber%</h3>
-					<h5>3PA/game</h5>
+					<h4>FG%</h4>
+					<h3>55.3%</h3>
+					<h5>1238 FGA</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 5-->
-					<h4>Steals</h4>
-					<h3>Number</h3>
-					<h5>SPG</h5>
+					<h4>3 Pointers</h4>
+					<h3>30.4%</h3>
+					<h5>4.7 3PA/G</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 6-->
-					<h4>Blocks</h4>
-					<h3>Number</h3>
-					<h5>BPG</h5>
+					<h4>Steals</h4>
+					<h3>61</h3>
+					<h5>1.0</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 7-->
-					<h4>Plus / Minus</h4>
-					<h3>Number</h3>
-					<h5>League Rank?</h5>
+					<h4>Blocks</h4>
+					<h3>66</h3>
+					<h5>1.0</h5>
 				</div>
 				<div> <!--'boxes' for counting stats 8-->
-					<h4>Player Efficiency Rating</h4>
+					<h4>Plus / Minus</h4>
 					<h3>Number</h3>
 					<h5>League Rank?</h5>
 				</div>

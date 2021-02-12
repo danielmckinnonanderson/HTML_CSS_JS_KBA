@@ -6,7 +6,7 @@
 }
 
 body {
-	background: #121212;
+	background-image: linear-gradient(to right, #333333, #141414);
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -17,6 +17,7 @@ body {
 	font-family: 'Montserrat';
 }
 #container_header {
+	min-height: 175px;
 	background-color: #1c1c1c;
 	margin: 5% 8.5% 5% 8.5%;
 	padding: 2% 5% 2% 5%;
@@ -28,15 +29,25 @@ body {
 	padding: 2% 5% 2% 5%;
 	border: solid; border-color: #c24a00; 
 }
+#container_stats {
+
+}
+#container_stats div {
+	border: solid 1px; border-color: #c24a00;
+	width: 20%;
+}
+
 #title {
-	display: inline
-	width: 150px;
+	float: left;
+	padding-top: 70px;
+	display: inline;
+	width: 200px;
 }
 #menu {
+	padding-top: 70px;
 	position: relative;
 	float: right;
 	display: inline-block;
-	/*padding: 0px 0px 240px;*/
 }
 #menu_button {
 	background-color: #c24a00;
@@ -44,7 +55,6 @@ body {
 	color: white;
 	padding: 12px 15px 12px 15px ;
 	font-size: 16px;
-	border:
 }
 #menu_options {
 	display: none;
