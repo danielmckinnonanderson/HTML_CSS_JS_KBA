@@ -55,7 +55,6 @@ h1, h2, h3, h4, h5, p {
 #container_search {
 	float: right;
 	display: block;
-						/*to do: add*/
 }
 #container_signup {
 	margin-top: 50px;
@@ -94,7 +93,6 @@ h1, h2, h3, h4, h5, p {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
-
 #img_harden {
 	height:70%;
 	width:70%;
@@ -122,7 +120,6 @@ h1, h2, h3, h4, h5, p {
 	color: white;
 }
 #search_input{
-
 }
 .video_link {
 	text-decoration: none;
