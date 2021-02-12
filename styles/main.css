@@ -34,11 +34,8 @@ h1, h2, h3, h4, h5, p {
 #container_stats {
 	overflow: auto;
 	padding: 2.5% 5% 2.5% 5%;
+
 }
-/*#container_stats div {
-
-
-}*/
 #title {
 	float: left;
 	padding-top: 70px;
@@ -62,7 +59,6 @@ h1, h2, h3, h4, h5, p {
 	display: none;
 	position: absolute;
 	background-color: #c24a00
-	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
@@ -73,4 +69,7 @@ h1, h2, h3, h4, h5, p {
 	text-align: center;
 	border: solid 1px; border-color: #c24a00;
 	width: 20%;
+}
+.stat_box h4, h5 {
+	color: #c24a00;
 }
