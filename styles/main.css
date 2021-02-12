@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Secular+One&display=swap');
 
-* {
-	color: white;
-}
+
 
 body {
 	background-image: linear-gradient(to right, #333333, #141414);
 	padding-left: 10%;
 	padding-right: 10%;
+}
+h1, h2, h3, h4, h5, p {
+	color: white;
 }
 #container_main {
 	width: 1000px;
@@ -22,6 +23,7 @@ body {
 	margin: 5% 8.5% 5% 8.5%;
 	padding: 2% 5% 2% 5%;
 	border: solid; border-color: #c24a00; 
+	box-shadow: 0px 0px 10px 0px;
 }
 #container_body {
 	background-color: #1c1c1c;
@@ -31,12 +33,12 @@ body {
 }
 #container_stats {
 	overflow: auto;
+	padding: 2.5% 5% 2.5% 5%;
 }
-#container_stats div {
-	border: solid 1px; border-color: #c24a00;
-	width: 20%;
-}
+/*#container_stats div {
 
+
+}*/
 #title {
 	float: left;
 	padding-top: 70px;
@@ -63,4 +65,12 @@ body {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+}
+.stat_box {
+	display: inline-block;
+	margin: 2%;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	border: solid 1px; border-color: #c24a00;
+	width: 20%;
 }
