@@ -3,32 +3,50 @@
 <head>
 	<title>NBA MVP's</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<style type="text/css">
+		.menu_item {
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		#menu:hover #menu_options {
+			display: block;
+		}
+		#menu:hover .menu_item {
+			background-color: #c24a00;
+		}
+		.menu_options a:hover {
+			background-color: #db6a00;
+		}
+
+	</style>
 </head>
 <body>
 	<div id='container_main'> <!-- main container -->
 		<div id='container_header'> <!--header bar (on all pages)-->
 			<div> <!-- header title -->
-				<h1>
-					NBA MVP's
+				<h1 style="font-family: 'Secular One'" id='title'>
+					NBA MVPs
 				</h1>
 			</div>
 			<div>
 				<!--image of naismith mvp trophy -->
 			</div>
 			
-			<div class = 'dropdown'>
-				<button>Select a Year</button> <!--dropdown link list in CSS -->
-				<div>
-					<a href="./2020.html">2020</a>
-					<a href="./2018.html">2018</a>
+			<div id = 'menu'>
+				<button id = 'menu_button'>Year:</button> <!--dropdown link list in CSS -->
+				<div id='menu_options'>
+					<a class='menu_item' href="./2020.html">2020</a>
+					<a class='menu_item' href="./2018.html">2018</a>
 				</div>
 			</div>
 		</div>
 
-		<div>	<!--body container (on all pages)-->
+		<div id='container_body'>	<!--body container (on all pages)-->
 			<div> <!-- body heading-->
-				<h3>
-					What Does It Take To Be The Greatest?
+				<h3 style="font-family: 'Secular One'">
+					What does it take to be the greatest?
 				</h3>
 			</div>
 			<div>	<!-- body text container -->

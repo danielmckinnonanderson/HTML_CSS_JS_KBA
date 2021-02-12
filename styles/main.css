@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Secular+One&display=swap');
 
+* {
+	color: white;
+}
 
 body {
 	background: #121212;
@@ -9,10 +14,43 @@ body {
 	width: 1000px;
 	margin: auto;
 	display: block;
+	font-family: 'Montserrat';
 }
 #container_header {
 	background-color: #1c1c1c;
 	margin: 5% 8.5% 5% 8.5%;
 	padding: 2% 5% 2% 5%;
-	border: solid; border-color: #8a4000; 
+	border: solid; border-color: #c24a00; 
+}
+#container_body {
+	background-color: #1c1c1c;
+	margin: 2.5% 8.5% 5% 8.5%;
+	padding: 2% 5% 2% 5%;
+	border: solid; border-color: #c24a00; 
+}
+#title {
+	display: inline
+	width: 150px;
+}
+#menu {
+	position: relative;
+	float: right;
+	display: inline-block;
+	/*padding: 0px 0px 240px;*/
+}
+#menu_button {
+	background-color: #c24a00;
+	font-family: 'Montserrat';
+	color: white;
+	padding: 12px 15px 12px 15px ;
+	font-size: 16px;
+	border:
+}
+#menu_options {
+	display: none;
+	position: absolute;
+	background-color: #c24a00
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
